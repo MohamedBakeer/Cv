@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <link rel="icon" href="imges/CV ICON.png">
+    <title>Cv</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="banner">
+            <img class="cover" src="imges/Backbakeer.jpg" >
+        </div>
+        
+        <div class="navlink">
+            <ul>
+                <li><a href="#">لا تستمع</a></li>
+                <li><a href="#">اكتشف</a></li>
+                <li><a href="#">Don`t listen</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="sec">
+        <header>
+            <div class="toggle"></div>
+            <a href="https://www.facebook.com/mohamed.bakeer.1884" class="btn">Hire Me</a>
+        </header>
+
+        <div class="imgBx">
+            <img class="cover" src="imges/Backbakeer1.jpg" >
+        </div>
+        <div class="content">
+            <h2>Hi, I am<br><span>Mohamed Bakeer</span><br>Dev</h2>
+            <a target="_blank" class="btn" href="2.html">Show My Cv</a>
+        </div>
+    </section>
+    <script>
+        let mOtoggle = document.querySelector('.toggle');
+        let navi = document.querySelector('.navigation');
+        let secc = document.querySelector('.sec');
+
+        mOtoggle.onclick = function(){
+        mOtoggle.classList.toggle('active')
+        navi.classList.toggle('active')
+        secc.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
